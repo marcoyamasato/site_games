@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Itens gerais*/
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: inline;
+}
+
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    background-color:#182C61;
+    color: #ecf0f1;
+    padding: 16px 0;
+    font-family: 'Bungee', cursive;
+    font-weight:normal;
+}
+
+header .container h1{
+    font-size: 30px;
+}
+
+.container nav li{
+    text-decoration: none;
+    display: inline;
+    font-size: 14px;
+    margin-left: 16px;
+    font-weight: normal;
+}
+
+.container ul li a{
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+/******************************************************************************************/
+
+.container li img{
+    height: 20px;
+}
+
+.brands-list li{
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container{
+    align-items: flex-start; /*para que os itens comecem de cima*/
+    margin-top: 15px;
+}
+
+section h2,
+section p{
+    margin-bottom: 20px;
+}
+
+section h2{
+    font-family: 'Bungee', cursive;
+}
+
+section .fachada_loja{
+    margin-right: 15px;
+}
+
+section li img{
+    height: 18px;
+}
+
+section li{
+    display: inline;
+}
+
+#formulario_contato input{
+    display: block;
+    margin-bottom: 10px;
+}
+
+#formulario_contato button{
+    display: block;
+    background-color: #182C61;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+}
+
+#formulario_contato textarea{
+    height: 200px;
+    resize: none;
+}
+
+#formulario_contato input:focus textarea:focus{
+    background-color: #02237e;
+}
+
+.rodape{
+    background-color: #182C61;
+    height: 60px;
+    align-items: center;
+}
+
+footer {
+    margin-top: 20px;
+    color: #ecf0f1;
+    font-family: 'Roboto Mono', monospace;
+    padding: 16px 0}
+
+
+form input,
+form textarea,
+form button{
+    width:320px
+}
